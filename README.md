@@ -1,7 +1,37 @@
-# Sample Hardhat 3 Beta Project (minimal)
+# ⚡ Energy Trading DApp
 
-This project has a minimal setup of Hardhat 3 Beta, without any plugins.
+## 📌 Overview
+This project is a decentralized energy trading system built using Ethereum blockchain. It allows users to:
+- Add balance (ETH)
+- Add energy (seller)
+- Buy energy from another user
 
-## What's included?
+## 🛠 Tech Stack
+- Solidity
+- Hardhat
+- React.js
+- Ethers.js
+- MetaMask
 
-The project includes native support for TypeScript, Hardhat scripts, tasks, and support for Solidity compilation and tests.
+## ⚙️ Features
+- Smart contract for energy trading
+- Real-time UI updates
+- Wallet integration
+- Buyer-seller interaction
+
+## 🚀 How to Run
+
+### Backend (Hardhat)
+npx hardhat node  
+npx hardhat run scripts/deploy.js --network localhost  
+
+### Frontend
+cd energy-frontend  
+npm install  
+npm start  
+
+## 📷 Screenshots
+(Add your UI screenshots here)
+
+## 🔗 GitHub
+https://github.com/RAKSHITHA9990/energy-trading-dapp
